@@ -1,0 +1,25 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "chai": "^5.2.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^11.7.1",
+    "mongoose": "^8.17.0",
+    "nyc": "^17.1.0",
+    "sanitize-html": "^2.17.0",
+    "socket.io": "^4.8.1",
+    "supertest": "^7.1.4"
+  }
+}
